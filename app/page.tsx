@@ -1,16 +1,12 @@
+'use client';
+
 import React from 'react';
-import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowRight, Coffee, Mountain, Zap, Mail, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Coffee, Mountain } from 'lucide-react';
 
 export default function CoffeezuraLanding() {
   return (
     <div className="min-h-screen bg-[#FFF5E6] text-[#111827] font-sans selection:bg-[#FAD4C0]">
-      <Head>
-        <title>Coffeezura | Jurassic-Grade Coffee</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono&display=swap" rel="stylesheet" />
-      </Head>
-
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center text-center px-4">
         <div className="absolute inset-0 z-0 overflow-hidden">
